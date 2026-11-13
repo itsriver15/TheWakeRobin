@@ -21,8 +21,12 @@
   "resources":[
     {"id":{"name":"ExampleObject_DevinHughes","path":"objects/ExampleObject_DevinHughes/ExampleObject_DevinHughes.yy",},},
     {"id":{"name":"ExampleObject_Gabe","path":"objects/ExampleObject_Gabe/ExampleObject_Gabe.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"ExampleObject_Michael","path":"objects/ExampleObject_Michael/ExampleObject_Michael.yy",},},
     {"id":{"name":"ExampleObject_River","path":"objects/ExampleObject_River/ExampleObject_River.yy",},},
+=======
+    {"id":{"name":"Object_Antonio","path":"objects/Object_Antonio/Object_Antonio.yy",},},
+>>>>>>> f75db4567f5d03b22be1fd6885322e7359552f06
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
