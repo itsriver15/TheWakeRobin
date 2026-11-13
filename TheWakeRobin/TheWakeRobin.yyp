@@ -20,6 +20,7 @@
   "name":"TheWakeRobin",
   "resources":[
     {"id":{"name":"ExampleObject_Gabe","path":"objects/ExampleObject_Gabe/ExampleObject_Gabe.yy",},},
+    {"id":{"name":"Object_Antonio","path":"objects/Object_Antonio/Object_Antonio.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
