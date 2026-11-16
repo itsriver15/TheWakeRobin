@@ -19,6 +19,7 @@
   },
   "name":"WakeRobin0.0.1",
   "resources":[
+    {"id":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",
