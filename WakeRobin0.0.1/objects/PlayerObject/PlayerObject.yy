@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_neutral",
-    "path":"sprites/spr_player_neutral/spr_player_neutral.yy",
+    "name":"spr_PlaceholderGoofy",
+    "path":"sprites/spr_PlaceholderGoofy/spr_PlaceholderGoofy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
