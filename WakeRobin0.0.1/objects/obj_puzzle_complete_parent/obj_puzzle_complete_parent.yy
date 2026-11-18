@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_puzzle_parent",
-    "path":"sprites/spr_puzzle_parent/spr_puzzle_parent.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
