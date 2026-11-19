@@ -3,13 +3,10 @@
   "%Name":"RoomUI",
   "children":[
     {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[
-        {"$GMRFlexPanel":"","%Name":"TestPuzzle","alignItems":2,"children":[
-            {"$GMRFlexPanel":"","%Name":"TestButton","alignItems":2,"children":[
-                {"$GMRInstance":"v4","%Name":"inst_7D67FC36","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7D67FC36","objectId":{"name":"obj_puzzle_ui_test_btn","path":"objects/obj_puzzle_ui_test_btn/obj_puzzle_ui_test_btn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
-              ],"flexDirection":0,"height":{"unit":1,"value":300.0,},"justifyContent":1,"name":"TestButton","nodeColour":4294094152,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":300.0,},},
-            {"$GMRSpriteGraphic":"v1","%Name":"graphic_1C4339F6","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1C4339F6","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_puzzle_panel","path":"sprites/spr_puzzle_panel/spr_puzzle_panel.yy",},"x":0.0,"y":0.0,},
-          ],"flexDirection":0,"height":{"unit":1,"value":600.0,},"justifyContent":1,"name":"TestPuzzle","nodeColour":4286335218,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":1000.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4282970698,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+        {"$GMRFlexPanel":"","%Name":"puzzle_layer","alignItems":2,"children":[
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_AB20BF0","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_AB20BF0","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_puzzle_parent","path":"sprites/spr_puzzle_parent/spr_puzzle_parent.yy",},"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"height":{"unit":1,"value":300.0,},"justifyContent":1,"name":"puzzle_layer","nodeColour":4294101576,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":400.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4288235762,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
   ],
   "locked":false,
   "name":"RoomUI",
