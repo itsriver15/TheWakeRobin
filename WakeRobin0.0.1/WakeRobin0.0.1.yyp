@@ -43,6 +43,7 @@
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_red_box","path":"sprites/spr_red_box/spr_red_box.yy",},},
     {"id":{"name":"spr_temp_tilemap","path":"sprites/spr_temp_tilemap/spr_temp_tilemap.yy",},},
+    {"id":{"name":"spr_test_item","path":"sprites/spr_test_item/spr_test_item.yy",},},
     {"id":{"name":"tm_temp_tilemap","path":"tilesets/tm_temp_tilemap/tm_temp_tilemap.yy",},},
   ],
   "resourceType":"GMProject",
