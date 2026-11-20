@@ -48,6 +48,7 @@
     {"id":{"name":"spr_player_neutral","path":"sprites/spr_player_neutral/spr_player_neutral.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
+    {"id":{"name":"spr_temp_bg","path":"sprites/spr_temp_bg/spr_temp_bg.yy",},},
     {"id":{"name":"spr_red_box","path":"sprites/spr_red_box/spr_red_box.yy",},},
     {"id":{"name":"spr_temp_tilemap","path":"sprites/spr_temp_tilemap/spr_temp_tilemap.yy",},},
     {"id":{"name":"spr_test_item","path":"sprites/spr_test_item/spr_test_item.yy",},},
@@ -56,9 +57,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_gameplay_room","path":"rooms/rm_gameplay_room/rm_gameplay_room.yy",},},
     {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
     {"roomId":{"name":"rm_title_room","path":"rooms/rm_title_room/rm_title_room.yy",},},
-    {"roomId":{"name":"rm_gameplay_room","path":"rooms/rm_gameplay_room/rm_gameplay_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
