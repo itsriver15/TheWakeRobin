@@ -2,11 +2,12 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
-    {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[
-        {"$GMRFlexPanel":"","%Name":"puzzle_layer","alignItems":2,"children":[
+    {"$GMRUILayer":"v1","%Name":"puzzle_layer_test","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"completion_test","alignItems":2,"children":[
+            {"$GMRInstance":"v4","%Name":"inst_25EFE427","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25EFE427","objectId":{"name":"obj_test_complete_btn","path":"objects/obj_test_complete_btn/obj_test_complete_btn.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":1.78125,"x":99.0,"y":154.0,},
             {"$GMRSpriteGraphic":"v1","%Name":"graphic_AB20BF0","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps","stretchHeight":true,"stretchWidth":true,},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_AB20BF0","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_puzzle_parent","path":"sprites/spr_puzzle_parent/spr_puzzle_parent.yy",},"x":0.0,"y":0.0,},
-          ],"flexDirection":0,"height":{"unit":1,"value":300.0,},"justifyContent":1,"name":"puzzle_layer","nodeColour":4294101576,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":400.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4288235762,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+          ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"marginBottom":{"unit":1,"value":122.0,},"name":"completion_test","nodeColour":4294097992,"paddingBottom":{"unit":1,"value":414.0,},"paddingRight":{"unit":1,"value":357.0,},"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"puzzle_layer_test","nodeColour":4288235762,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
   ],
   "locked":false,
   "name":"RoomUI",
