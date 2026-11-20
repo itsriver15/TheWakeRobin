@@ -19,6 +19,14 @@ rightKey = keyboard_get_map(ord("D"));
 upKey = keyboard_get_map(ord("W"));
 downKey = keyboard_get_map(ord("S"));
 
+// Collision Logic
+left = false;
+right = false;
+up = false;
+down = false;
+collide = obj_collidable;
+currentFacing = playerDirection.Right;
+
 interactKey = keyboard_get_map(ord("E"));
 pauseKey = keyboard_get_map(vk_escape);
 inventoryKey = keyboard_get_map(vk_tab);
