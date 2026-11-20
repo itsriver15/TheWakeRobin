@@ -1,55 +1,17 @@
-//Creating Construct 
+inventoryOpen = false;
+InvWidth = 3;
+InvHeight = 3;
+InvTotal = InvWidth * InvHeight;
+InvPadding = sprite_get_width(InvSlot) + 3;         //InvSlot represents the sprite(need to make sprite) that the slot will look like
 
-function create_item(_id, _name, _description, _sprite) constructor
-{
-	id = _id;
-	name = _name;
-	description = _description;
-	sprite = _sprite;
-	
-	
-	
-}
+Inventory = array_create(InvTotal, -1);
+InvAnims = array_create(InvTotal, -1);
 
-
-//creating the Items
-
-//The Items will need sprites
-
-global.items_list = 
-{
-	
-	testItem : new create_item(
-	1,
-	"TestItem",
-	"To test item",
-	spr_test_item
-
-	), 
-	
-	keyItem: new create_item(
-	2,
-	"Key",
-	"Opens Doors",
-	spr_key
-	
-	
-	
-	
-	)
-	
-	
-	
-
-
-
+for (var i = 0; i < array_length(InvAnims); i++){
+	InvAnims[i] = {Size: 1}
 
 }
 
-inv = array_create(0)
 
 
-
-//
-sep = 16;
-screen_board = 16;
+display_set_gui_size(1366, 769);
