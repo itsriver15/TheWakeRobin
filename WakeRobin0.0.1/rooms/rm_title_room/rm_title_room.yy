@@ -13,8 +13,8 @@
   ],
   "name":"rm_title_room",
   "parent":{
-    "name":"WakeRobin0.0.1",
-    "path":"WakeRobin0.0.1.yyp",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
