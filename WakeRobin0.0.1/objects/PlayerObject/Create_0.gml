@@ -6,10 +6,11 @@ PlayerSpeed = 10;
 
 // Sprite setup
 
-PlayerSpriteLeft = spr_PlaceholderGoofy;
-PlayerSpriteRight = spr_PlaceholderGoofy;
-PlayerSpriteUp = spr_PlaceholderGoofy;
-PlayerSpriteDown = spr_PlaceholderGoofy;
+PlayerSpriteLeft = spr_player_left;
+PlayerSpriteRight = spr_player_right;
+PlayerSpriteUp = spr_player_up;
+PlayerSpriteDown = spr_player_down;
+
 
 // Key setup
 
