@@ -3,24 +3,28 @@
 
 if (keyboard_check(leftKey))
 {
+	sprite_index = PlayerSpriteLeft;
     left = true;
 }else{
 	left = false;
 }
 if (keyboard_check(rightKey))
 {
+	sprite_index = PlayerSpriteRight;
 	right = true;
 }else{
 	right = false;
 }
 if (keyboard_check(upKey))
 {
+	sprite_index = PlayerSpriteUp;
     up = true;
 }else{
 	up = false;
 }
 if (keyboard_check(downKey))
 {
+	sprite_index = PlayerSpriteDown;
     down = true;
 }else{
 	down = false;
