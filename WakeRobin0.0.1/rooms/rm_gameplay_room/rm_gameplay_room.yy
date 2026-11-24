@@ -16,7 +16,6 @@
     {"name":"inst_79515551","path":"rooms/rm_gameplay_room/rm_gameplay_room.yy",},
     {"name":"inst_283B264C","path":"rooms/rm_gameplay_room/rm_gameplay_room.yy",},
     {"name":"inst_371A8EC3","path":"rooms/rm_gameplay_room/rm_gameplay_room.yy",},
-    {"name":"inst_6B94D627","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
