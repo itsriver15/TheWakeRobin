@@ -3,17 +3,18 @@
   "%Name":"obj_test_complete_btn",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_test_complete_btn",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"testing",
+    "path":"folders/Objects/Puzzles/testing.yy",
   },
   "parentObjectId":{
-    "name":"obj_test_complete_parent",
-    "path":"objects/obj_test_complete_parent/obj_test_complete_parent.yy",
+    "name":"obj_complete_parent",
+    "path":"objects/obj_complete_parent/obj_complete_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
