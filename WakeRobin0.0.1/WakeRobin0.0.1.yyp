@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"collision","folderPath":"folders/Objects/collision.yy","name":"collision","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Puzzles","folderPath":"folders/Objects/Puzzles.yy","name":"Puzzles","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -30,6 +31,7 @@
   },
   "name":"WakeRobin0.0.1",
   "resources":[
+    {"id":{"name":"fnt_breathefire","path":"fonts/fnt_breathefire/fnt_breathefire.yy",},},
     {"id":{"name":"InventoryObject","path":"objects/InventoryObject/InventoryObject.yy",},},
     {"id":{"name":"obj_basic_wall","path":"objects/obj_basic_wall/obj_basic_wall.yy",},},
     {"id":{"name":"obj_CharInteractable","path":"objects/obj_CharInteractable/obj_CharInteractable.yy",},},
@@ -37,8 +39,13 @@
     {"id":{"name":"obj_complete_parent","path":"objects/obj_complete_parent/obj_complete_parent.yy",},},
     {"id":{"name":"obj_correct_test","path":"objects/obj_correct_test/obj_correct_test.yy",},},
     {"id":{"name":"obj_incorrect_test","path":"objects/obj_incorrect_test/obj_incorrect_test.yy",},},
+    {"id":{"name":"obj_controlsdisp","path":"objects/obj_controlsdisp/obj_controlsdisp.yy",},},
     {"id":{"name":"obj_Interactable","path":"objects/obj_Interactable/obj_Interactable.yy",},},
     {"id":{"name":"obj_keyObject","path":"objects/obj_keyObject/obj_keyObject.yy",},},
+    {"id":{"name":"obj_menubutton_help","path":"objects/obj_menubutton_help/obj_menubutton_help.yy",},},
+    {"id":{"name":"obj_menubutton_parent","path":"objects/obj_menubutton_parent/obj_menubutton_parent.yy",},},
+    {"id":{"name":"obj_menubutton_play","path":"objects/obj_menubutton_play/obj_menubutton_play.yy",},},
+    {"id":{"name":"obj_menubutton_quit","path":"objects/obj_menubutton_quit/obj_menubutton_quit.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_puzzle_element_parent","path":"objects/obj_puzzle_element_parent/obj_puzzle_element_parent.yy",},},
     {"id":{"name":"obj_puzzle_exit_btn_parent","path":"objects/obj_puzzle_exit_btn_parent/obj_puzzle_exit_btn_parent.yy",},},
@@ -60,6 +67,7 @@
     {"id":{"name":"spr_correct","path":"sprites/spr_correct/spr_correct.yy",},},
     {"id":{"name":"spr_incorrect","path":"sprites/spr_incorrect/spr_incorrect.yy",},},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
+    {"id":{"name":"spr_PH_button","path":"sprites/spr_PH_button/spr_PH_button.yy",},},
     {"id":{"name":"spr_PlaceholderGoofy","path":"sprites/spr_PlaceholderGoofy/spr_PlaceholderGoofy.yy",},},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
@@ -77,9 +85,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_title_room","path":"rooms/rm_title_room/rm_title_room.yy",},},
     {"roomId":{"name":"rm_gameplay_room","path":"rooms/rm_gameplay_room/rm_gameplay_room.yy",},},
     {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
-    {"roomId":{"name":"rm_title_room","path":"rooms/rm_title_room/rm_title_room.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
